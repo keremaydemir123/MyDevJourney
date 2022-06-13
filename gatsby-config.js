@@ -11,7 +11,7 @@ module.exports = {
     siteTitleAlt: `My Dev Journey`,
     siteHeadline: `My Dev Journey`,
     siteUrl: `https://github.com/keremaydemir123`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteDescription: `Blogs written by Kerem Aydemir`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: `kerem aydemir`,
