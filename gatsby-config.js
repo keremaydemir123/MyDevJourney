@@ -37,8 +37,8 @@ module.exports = {
             url: `https://twitter.com/lekoarts_de`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `GitHub`,
+            url: `https://github.com/keremaydemir123`,
           },
         ],
       },
