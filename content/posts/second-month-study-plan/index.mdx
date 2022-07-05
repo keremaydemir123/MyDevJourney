@@ -1,0 +1,91 @@
+---
+title: 2nd Month's Study Plan
+date: "2022-06-19"
+description: "Estimated weekly study plan of second month"
+tags:
+  - Study Plan
+---
+
+## Month 2: Practice and practice
+
+Make many projects and also try to do your own versions of old ones.
+
+---
+
+### 1st Medium Project:
+
+---
+
+### Objective: Make an item creator
+
+**There are 3 types of item:** weapon, armor and jewelry
+
+**Items have levels and base damage ranges** depending on level
+
+**Items with a certain level has a base name**, for example: **level 1** sword: **wooden sword** (base damage: 1-10), **level 90** sword: **dragon slayer** sword (base damage: 90-120)
+
+**Items may contain two kinds of affixes:** suffix and prefix, this affixes contain power-ups 
+
+**Affixes have tiers up to tier7**: if tier increase, their power increase  
+Every affix has it's own range for power:  
+for example:    
+suffix a: tier1(1-3) tier2(4-6) tier3 (7-11) tier4(12-17) tier5(18-24) tier6(25-33) tier7(34-45)  
+suffix b: tier1(2-3) tier2(4-5) tier3 (6-7) tier4(8-10) tier5(11-14) tier6(15-19) tier7(20-25)  
+
+**Items have a color** and items with each colors have different restrictions for affixes:
+
+- White item: at most 1 affix (prefix or suffix), maximum affix tier: tier5
+- Blue item: at most 2 affix, maximum affix tier: tier5
+- Yellow item: at least 3 affix, at most 4 affix (2 prefix & 1 suffix, 1 prefix & 2 suffix or 2 prefix & 2 suffix), maximum affix tier: tier5
+- Purple item: at least 1 affix, at most 4 affix, at least 1 affix with tier6 or tier7, maximum affix tier: tier7
+- Orange item: exactly 5 affix, maximum affix tier: tier2
+
+**Items have quality:**
+
+Quality has no upper limitation and it increase the affixes' power, for example:  
+**quality:1** will increase **2%** of the each affix on the item  
+**quality:10** will increase **20%** of the each affix on the item
+
+*example: item with 2 suffixes and quality:10*
+
+Suffix1: increase maximum health (tier5): 10% (9%-12%) + 20% --> 12%
+
+Suffix2: increase armor (tier3): 5% (3%-5%) + 20% --> 6%
+
+**Items have stability:**
+
+Stability can be used in order to either upgrade the item quality or affix tier, maximum stability: 70, initial stability of orange items are always 70
+
+Stability range of items: (30-70)
+
+When upgrade is done: (1-20) stability is spent
+
+Item stability cannot go below 0, if item stability is 1 and upgrade is done, item stability will be 0 and no upgrades can be done anymore
+
+Affixes with tier5, tier6 or tier7 cannot be upgraded further.
+
+
+#### How it is gonna work in web
+
+- There will be 6 buttons on top to create items: random, white, blue, yellow, purple, orange
+- When buttons are clicked a new item will be generated and replaced with old item.
+- Item can be upgraded with buttons next to affixes or quality
+
+
+#### Future of this project
+
+- Make a Full stack React version
+- Add user login with Google authentication
+- Upgrade the logic further (maybe idle mmorpg??)
+- Make an inventory
+- Make trades with other people
+
+
+#### Algorithm
+
+Sets and maps
+
+#### CSS
+
+pseudo-elements
+pseudo-classes
